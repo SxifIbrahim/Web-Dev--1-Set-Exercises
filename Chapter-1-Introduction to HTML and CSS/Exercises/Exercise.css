@@ -1,0 +1,72 @@
+/* Resetting default styles and setting a background color for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(199, 177, 151);
+}
+
+/* Styling for the page header */
+header {
+    background-color: bisque;
+    color: #000000;
+    text-align: center;
+    padding: 0.1em;
+    font-family: Brush Scrpt MT, cursive;
+    }
+
+/* Styling for the first image in the 'Ingredients' section */
+.img1 {
+    float: right;
+    width: 40%;
+}
+
+p {
+    line-height: 25px;
+   }
+
+/* Styling for unordered lists */
+ul {
+    line-height: 25px;
+  }
+
+/* Styling for ordered lists */
+ol {
+    line-height: 25px;
+   }
+
+/* Styling for the 'Ingredients' section */
+.pp {
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 13%;
+    background-color: bisque;
+    padding: 30px;
+}
+
+.ww { 
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 51%;
+    background-color: bisque;
+    padding: 30px;
+}
+
+/* Styling for the second image in the 'Recipe' section */
+.img2 {
+    float: right;
+    width: 40%;
+}
+
+/* Styling for the 'Recipe' section */
+.aa {
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 97%;
+    background-color: bisque;
+    padding: 30px;
+}
