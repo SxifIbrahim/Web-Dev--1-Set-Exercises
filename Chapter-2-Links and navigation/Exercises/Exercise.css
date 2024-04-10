@@ -1,0 +1,63 @@
+/* Resetting default styles and setting a background color for the body */
+body {
+    font-family: RodinNTLG;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e6ccb2;
+}
+
+/* Styling for the page header */
+header {
+    background-color: #9c6644;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.1em;
+    font-family: Prentice Font;
+}
+
+.button {
+    background-color: #9c6644; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+}
+
+p {
+    line-height: 25px;
+}
+
+ul {
+    line-height: 25px;
+}
+
+.pp {
+    position: absolute;
+    width: 45%;
+    left: 26.35%;
+    top: 15%;
+    background-color: bisque;
+    padding: 30px;
+}
+
+.aa { 
+    position: absolute;
+    width: 42%;
+    left: 3%;
+    top: 50%;
+    background-color: bisque;
+    padding: 30px;
+}  
+
+.ww { 
+    position: absolute;
+    width: 42%;
+    left: 52%;
+    top: 50%;
+    background-color: bisque;
+    padding: 30px;
+}   
