@@ -1,0 +1,112 @@
+html {
+    overflow-y: hidden; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #17072b;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    margin: 25px;
+}
+
+header h1 a {
+    color: #FFFFFF;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+header nav ul li a {
+    color: #FFFFFF;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px 0;
+    display: flex;
+}
+
+.welcome {
+    color: #000;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    flex: 1;
+}
+
+.welcome .container {
+    position: relative;
+}
+
+.welcome .container img.one {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 110%;
+}
+
+.line-up {
+    background-color: #172d67;
+    color: #FFFFFF;
+    padding: 0px;
+    float: right;
+    padding-bottom: 101px;
+    width: auto;
+}
+
+.line-up .container {
+    position: relative;
+}
+
+.line-up .container img {
+    margin-bottom: 10px;
+}
+
+.line-up .container img.two {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 75px;
+    top: 0;
+    right: 0;
+    width: 41%;
+}
+
+.line-up .container img.three {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 41%;
+}
+
+footer {
+    background-color: #8c15e9;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+}
