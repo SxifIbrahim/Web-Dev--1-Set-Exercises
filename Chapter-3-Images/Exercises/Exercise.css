@@ -1,0 +1,47 @@
+html { 
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+}
+
+div {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 40px;
+    line-height: 100px;
+    text-align: center;
+}
+
+p {
+    position: absolute;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 24px;
+}
+
+body {
+    background-image: url("4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px auto;
+    width: max-content;
+}
+
+.one {
+    padding-right: 150px;
+    padding-left: 400px;
+    margin-left: -600px;
+    width: 15%;
+    height: 40%;
+}
+
+.two {
+    padding-right: 150px;
+    width: 15%;
+    height: 40%;
+}
+
+.three {
+    width: 18.15%;
+    height: 0%;
+}
