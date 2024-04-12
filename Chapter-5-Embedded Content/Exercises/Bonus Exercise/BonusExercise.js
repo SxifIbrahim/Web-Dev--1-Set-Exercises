@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const soundboard = document.getElementById("soundboard");
     const audio = document.getElementById("audio");
 
-    // Array of sample names and audio file paths
+    // Audio names and audio file paths
     const samples = [
         { name: "Ah-Ha", file: "ah-ha.mp3" },
         { name: "Back of the Net", file: "back-of-the-net.mp3" },
