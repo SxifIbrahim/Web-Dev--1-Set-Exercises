@@ -30,4 +30,19 @@ document.addEventListener("DOMContentLoaded", function() {
         audio.src = `audio/${file}`;
         audio.play();
     }
+
+    // Function to trigger text-to-speech
+    function speakText(text) {
+    const speechSynthesis = window.speechSynthesis;
+    const utterance = new SpeechSynthesisUtterance(text);
+    speechSynthesis.speak(utterance);
+}
+
+    // Add event listener to the text-to-speech button
+    document.getElementById('textToSpeechButton').addEventListener('click', function() {
+    // Example text to be spoken (you can customize this)
+    const textToSpeak = "Alan Partridge Soundboard";
+    speakText(textToSpeak);
+    
+});
 });
