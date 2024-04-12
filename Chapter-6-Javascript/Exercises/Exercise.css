@@ -1,3 +1,4 @@
+/* Resetting default styles and setting up the body */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,6 +6,7 @@ body {
     background-color: #f0f0f0;
 }
 
+/* Styling for the container */
 .container {
     max-width: 400px;
     margin: 50px auto;
@@ -14,22 +16,26 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Styling for heading */
 h1 {
     text-align: center;
     margin-bottom: 20px;
     color: #333;
 }
 
+/* Styling for input container */
 .input-container {
     margin-bottom: 20px;
 }
 
+/* Styling for labels */
 label {
     display: block;
     margin-bottom: 5px;
     color: #333;
 }
 
+/* Styling for inputs */
 input {
     width: calc(100% - 22px);
     padding: 10px;
@@ -43,6 +49,7 @@ input:focus {
     outline: none;
 }
 
+/* Styling for buttons */
 button {
     width: 100%;
     padding: 10px;
@@ -60,6 +67,7 @@ button:hover {
     background-color: #2980b9;
 }
 
+/* Styling for total cost paragraph */
 p#total-cost {
     text-align: center;
     font-size: 18px;
@@ -67,6 +75,7 @@ p#total-cost {
     color: #333;
 }
 
+/* Dark mode styles */
 body.dark-mode {
     background-color: #000000;
     color: #fff;
