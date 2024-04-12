@@ -1,3 +1,4 @@
+/* Resetting default styles and setting up the container */
 body, html {
     margin: 0;
     padding: 0;
@@ -8,16 +9,19 @@ body, html {
     background-color: #000;
 }
 
+/* Styling for the video container */
 .video-container {
     max-width: 800px;
 }
 
+/* Styling for the video element */
 video {
     display: block;
     width: 100%;
     height: auto;
 }
 
+/* Styling for the controls */
 .controls {
     margin-top: 10px;
     display: flex;
@@ -25,6 +29,7 @@ video {
     align-items: center;
 }
 
+/* Styling for buttons */
 button {
     margin: 0 5px;
     padding: 5px 10px;
@@ -35,6 +40,7 @@ button {
     cursor: pointer;
 }
 
+/* Styling for range input */
 input[type="range"] {
     width: 100px;
 }
