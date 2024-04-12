@@ -22,22 +22,21 @@ header {
     width: 40%;
 }
 
+/* Spacing the Words */
 p {
     line-height: 25px;
    }
 
-/* Styling for unordered lists */
 ul {
     line-height: 25px;
   }
 
-/* Styling for ordered lists */
 ol {
     line-height: 25px;
    }
 
 /* Styling for the 'Ingredients' section */
-.pp {
+.Desc {
     position: absolute;
     width: 70%;
     left: 15%;
@@ -46,7 +45,7 @@ ol {
     padding: 30px;
 }
 
-.ww { 
+.Ing { 
     position: absolute;
     width: 70%;
     left: 15%;
@@ -62,7 +61,7 @@ ol {
 }
 
 /* Styling for the 'Recipe' section */
-.aa {
+.Rec {
     position: absolute;
     width: 70%;
     left: 15%;
