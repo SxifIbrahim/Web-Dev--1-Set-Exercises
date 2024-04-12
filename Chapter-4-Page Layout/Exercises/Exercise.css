@@ -1,24 +1,29 @@
+/* Set overflow-y to hidden for the HTML element */
 html {
     overflow-y: hidden; 
 }
 
+/* Reset default styles and set font-family for the body */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* Container class to center content */
 .container {
     width: 80%;
     margin: 0 auto;
 }
 
+/* Styling for the header */
 header {
     background-color: #17072b;
     color: #FFFFFF;
     padding: 20px 0;
 }
 
+/* Styling for the header title */
 header h1 {
     font-family: Tahoma, sans-serif;
     font-weight: 700;
@@ -26,32 +31,38 @@ header h1 {
     margin: 25px;
 }
 
+/* Styling for the header title link */
 header h1 a {
     color: #FFFFFF;
 }
 
+/* Styling for the navigation menu */
 header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
+/* Styling for navigation menu items */
 header nav ul li {
     display: inline;
     margin-right: 40px;
 }
 
+/* Styling for navigation menu links */
 header nav ul li a {
     color: #FFFFFF;
     font-size: 40px;
     text-decoration: none;
 }
 
+/* Styling for the main content */
 main {
     padding: 20px 0;
     display: flex;
 }
 
+/* Styling for the welcome section */
 .welcome {
     color: #000;
     margin-bottom: 20px;
@@ -59,10 +70,12 @@ main {
     flex: 1;
 }
 
+/* Styling for the welcome section container */
 .welcome .container {
     position: relative;
 }
 
+/* Styling for welcome section image */
 .welcome .container img.one {
     position: relative;
     top: 0;
@@ -70,6 +83,7 @@ main {
     width: 110%;
 }
 
+/* Styling for the line-up section */
 .line-up {
     background-color: #172d67;
     color: #FFFFFF;
@@ -79,14 +93,17 @@ main {
     width: auto;
 }
 
+/* Styling for the line-up section container */
 .line-up .container {
     position: relative;
 }
 
+/* Styling for line-up section images */
 .line-up .container img {
     margin-bottom: 10px;
 }
 
+/* Styling for line-up section image two */
 .line-up .container img.two {
     position: relative;
     padding-left: 10px;
@@ -97,6 +114,7 @@ main {
     width: 41%;
 }
 
+/* Styling for line-up section image three */
 .line-up .container img.three {
     position: relative;
     top: 0;
@@ -104,6 +122,7 @@ main {
     width: 41%;
 }
 
+/* Styling for the footer */
 footer {
     background-color: #8c15e9;
     color: #FFFFFF;
