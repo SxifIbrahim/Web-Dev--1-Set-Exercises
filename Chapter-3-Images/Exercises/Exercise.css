@@ -1,8 +1,10 @@
+/* Hides horizontal and vertical overflow to prevent scrolling */
 html { 
     overflow-x: hidden; 
     overflow-y: hidden; 
 }
 
+/* Styles for all div elements */
 div {
     display: inline-block;
     font-family: sans-serif;
@@ -12,6 +14,7 @@ div {
     text-align: center;
 }
 
+/* Styles for all p elements */
 p {
     position: absolute;
     padding: 0.5rem;
@@ -19,6 +22,7 @@ p {
     font-size: 24px;
 }
 
+/* Styles for the body */
 body {
     background-image: url("4.jpg");
     background-repeat: no-repeat;
@@ -27,6 +31,7 @@ body {
     width: max-content;
 }
 
+/* Styles for all the images */
 .one {
     padding-right: 150px;
     padding-left: 400px;
